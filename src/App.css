@@ -1,0 +1,172 @@
+.header {
+  color: white;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bgg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+ }
+
+nav{
+  display: flex  ;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;   
+}
+nav img{
+  width: 200px;
+}
+nav a{
+  flex: 1;
+  text-align: center;
+  margin-top: 16%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text-box{
+  width: 90;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.text-box{
+  font-size: 62px;
+}
+.text-box{
+  margin:10px 0 40px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+h1{
+  font-size: 45px;
+}
+
+/* CSS for the parent section */
+#auction {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgba(32,42,68,0.8);
+}
+
+/* CSS for each item */
+.itemdiv {
+  background-color: lightslategray;
+  width: 26%; /* Adjust as needed to fit three items in a row */
+  border: 1px solid transparent;
+  border-radius: 15px;
+  margin: auto; /* Adjust margin as needed for spacing */
+  padding: 10px;
+  box-sizing: border-box; /* Include padding in item width */
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* Adding a simple shadow to an element */
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+/* Style the images within each item */
+.items {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+/* CSS for each row */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Style input and button within each row */
+.row input[type="text"], .row input[type="number"], .row button {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.highestbid, .userbid{
+  background-color: lightgray;
+}
+
+.bio{
+  margin-top: -30px;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 0px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 12.5px;
+  height: 30px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.balance-container {
+  display: flex;
+  align-items: center;
+}
+
+.balance, .temp-bid {
+  margin: 0;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  font-size: 13.5px;
+}
+
+.profilePicture {
+  max-width: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
